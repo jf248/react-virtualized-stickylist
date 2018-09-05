@@ -1,6 +1,8 @@
 # react-virtualized-stickylist
 An extension of `react-virtualized`'s `List` component that adds 'sticky' subheaders in the list.
 
+![demo1.gif](demo1.gif)
+
 See [storybook][storybook] for live demos.
 
 ## Installation
@@ -65,7 +67,7 @@ render(
 ```
 
 ## Props
-> Takes all the props of `react-virtualized`'s [list][`List` component], as well as the following additional props.
+> Takes all the props of `react-virtualized`'s [list][List component], as well as the following additional props.
 
 | Prop | Type | Required? | Default | Description |
 | :--- | :--- | :---: | :--- | :--- |

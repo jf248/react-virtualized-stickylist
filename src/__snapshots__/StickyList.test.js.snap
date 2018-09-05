@@ -1,0 +1,385 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StickyList/> renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "height": 100,
+      "position": "relative",
+      "width": 300,
+    }
+  }
+>
+  <div
+    aria-label="grid"
+    aria-readonly={true}
+    className="ReactVirtualized__Grid ReactVirtualized__List"
+    onScroll={[Function]}
+    role="grid"
+    style={
+      Object {
+        "WebkitOverflowScrolling": "touch",
+        "boxSizing": "border-box",
+        "direction": "ltr",
+        "height": 20,
+        "overflow": "hidden",
+        "overflowX": "hidden",
+        "overflowY": "auto",
+        "position": "absolute",
+        "width": 283,
+        "willChange": "transform",
+        "zIndex": 10,
+      }
+    }
+    tabIndex={0}
+  >
+    <div
+      className="ReactVirtualized__Grid__innerScrollContainer"
+      role="rowgroup"
+      style={
+        Object {
+          "height": 60,
+          "maxHeight": 60,
+          "maxWidth": 283,
+          "overflow": "hidden",
+          "pointerEvents": "",
+          "position": "relative",
+          "width": "auto",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "height": 20,
+            "left": 0,
+            "lineHeight": "20px",
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          }
+        }
+      >
+        <b>
+          fruits
+        </b>
+      </div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "height": 20,
+            "left": 0,
+            "lineHeight": "20px",
+            "position": "absolute",
+            "top": 20,
+            "width": "100%",
+          }
+        }
+      >
+        <b>
+          vegetables
+        </b>
+      </div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "height": 20,
+            "left": 0,
+            "lineHeight": "20px",
+            "position": "absolute",
+            "top": 40,
+            "width": "100%",
+          }
+        }
+      >
+        <b>
+          other
+        </b>
+      </div>
+    </div>
+  </div>
+  <div
+    aria-label="grid"
+    aria-readonly={true}
+    className="ReactVirtualized__Grid ReactVirtualized__List"
+    onScroll={[Function]}
+    role="grid"
+    style={
+      Object {
+        "WebkitOverflowScrolling": "touch",
+        "boxSizing": "border-box",
+        "direction": "ltr",
+        "height": 100,
+        "overflowX": "hidden",
+        "overflowY": "auto",
+        "position": "relative",
+        "width": 300,
+        "willChange": "transform",
+      }
+    }
+    tabIndex={0}
+  >
+    <div
+      className="ReactVirtualized__Grid__innerScrollContainer"
+      role="rowgroup"
+      style={
+        Object {
+          "height": 420,
+          "maxHeight": 420,
+          "maxWidth": 300,
+          "overflow": "hidden",
+          "pointerEvents": "",
+          "position": "relative",
+          "width": "auto",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "height": 20,
+            "left": 0,
+            "lineHeight": "20px",
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          }
+        }
+      >
+        <b>
+          fruits
+        </b>
+      </div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "height": 20,
+            "left": 0,
+            "lineHeight": "20px",
+            "paddingLeft": 8,
+            "position": "absolute",
+            "top": 20,
+            "width": "100%",
+          }
+        }
+      >
+        apple
+      </div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "height": 20,
+            "left": 0,
+            "lineHeight": "20px",
+            "paddingLeft": 8,
+            "position": "absolute",
+            "top": 40,
+            "width": "100%",
+          }
+        }
+      >
+        banana
+      </div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "height": 20,
+            "left": 0,
+            "lineHeight": "20px",
+            "paddingLeft": 8,
+            "position": "absolute",
+            "top": 60,
+            "width": "100%",
+          }
+        }
+      >
+        grapefruit
+      </div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "height": 20,
+            "left": 0,
+            "lineHeight": "20px",
+            "paddingLeft": 8,
+            "position": "absolute",
+            "top": 80,
+            "width": "100%",
+          }
+        }
+      >
+        lemon
+      </div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "height": 20,
+            "left": 0,
+            "lineHeight": "20px",
+            "paddingLeft": 8,
+            "position": "absolute",
+            "top": 100,
+            "width": "100%",
+          }
+        }
+      >
+        mango
+      </div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "height": 20,
+            "left": 0,
+            "lineHeight": "20px",
+            "paddingLeft": 8,
+            "position": "absolute",
+            "top": 120,
+            "width": "100%",
+          }
+        }
+      >
+        orange
+      </div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "height": 20,
+            "left": 0,
+            "lineHeight": "20px",
+            "paddingLeft": 8,
+            "position": "absolute",
+            "top": 140,
+            "width": "100%",
+          }
+        }
+      >
+        papaya
+      </div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "height": 20,
+            "left": 0,
+            "lineHeight": "20px",
+            "position": "absolute",
+            "top": 160,
+            "width": "100%",
+          }
+        }
+      >
+        <b>
+          vegetables
+        </b>
+      </div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "height": 20,
+            "left": 0,
+            "lineHeight": "20px",
+            "paddingLeft": 8,
+            "position": "absolute",
+            "top": 180,
+            "width": "100%",
+          }
+        }
+      >
+        brocoli
+      </div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "height": 20,
+            "left": 0,
+            "lineHeight": "20px",
+            "paddingLeft": 8,
+            "position": "absolute",
+            "top": 200,
+            "width": "100%",
+          }
+        }
+      >
+        cabbage
+      </div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "height": 20,
+            "left": 0,
+            "lineHeight": "20px",
+            "paddingLeft": 8,
+            "position": "absolute",
+            "top": 220,
+            "width": "100%",
+          }
+        }
+      >
+        carrot
+      </div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "height": 20,
+            "left": 0,
+            "lineHeight": "20px",
+            "paddingLeft": 8,
+            "position": "absolute",
+            "top": 240,
+            "width": "100%",
+          }
+        }
+      >
+        cauliflower
+      </div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "height": 20,
+            "left": 0,
+            "lineHeight": "20px",
+            "paddingLeft": 8,
+            "position": "absolute",
+            "top": 260,
+            "width": "100%",
+          }
+        }
+      >
+        lettuce
+      </div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "height": 20,
+            "left": 0,
+            "lineHeight": "20px",
+            "paddingLeft": 8,
+            "position": "absolute",
+            "top": 280,
+            "width": "100%",
+          }
+        }
+      >
+        onion
+      </div>
+    </div>
+  </div>
+</div>
+`;

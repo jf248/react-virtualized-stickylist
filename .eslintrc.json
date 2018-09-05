@@ -1,0 +1,41 @@
+{
+    "env": {
+        "node": true,
+        "browser": true
+    },
+    "parser": "babel-eslint",
+    "extends": [
+        "prettier",
+        "eslint:recommended",
+        "plugin:import/recommended",
+        "plugin:react/recommended",
+        "plugin:jest/recommended"
+    ],
+    "plugins": [
+        "import",
+        "react",
+        "jest"
+    ],
+    "rules": {
+        "no-console": "warn",
+        "react/display-name": "off",
+        "react/prop-types": "off",
+        "import/no-absolute-path": "warn",
+        "import/no-self-import": "warn",
+        "import/no-cycle": "warn",
+        "import/no-useless-path-segments": "warn",
+        "import/no-named-default": "warn",
+        "import/no-relative-parent-imports": "off",
+        "import/no-internal-modules": "warn"
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "moduleDirectory": [
+                    "src",
+                    "node_modules"
+                ]
+            }
+        }
+    }
+}

@@ -10,6 +10,13 @@ See [storybook][storybook] for live demos.
 yarn add react-virtualized-stickylist
 ```
 
+or
+
+```html
+<script src="https://unpkg.com/react-virtualized-sticklist/dist/index.min.umd.js"></script>
+
+```
+
 ## Usage
 ```jsx
 import React from 'react';

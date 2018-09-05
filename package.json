@@ -18,7 +18,12 @@
   "bugs": {
     "url": "https://github.com/jf248/react-virtualized-sticklist/issues"
   },
-  "keywords": [],
+  "keywords": [
+      "react-virtualized",
+      "list",
+      "sticky",
+      "subheaders"
+  ],
   "scripts": {
     "build": "yarn build:es2015 && yarn build:es2015modules && yarn build:umd",
     "build-storybook": "build-storybook -o storybook && gh-pages -d storybook && rm -r storybook",
@@ -27,6 +32,7 @@
     "build:umd": "cross-env NODE_ENV=production BABEL_ENV=umd rollup -c",
     "prebuild": "rimraf dist",
     "precommit": "lint-staged",
+    "prepublishOnly": "yarn test && yarn build",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "storybook:build": "build-storybook -o storybook && gh-pages -d storybook && rimraf storybook",
     "test": "jest",

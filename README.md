@@ -66,6 +66,7 @@ render(
 
 ## Props
 > Takes all the props of `react-virtualized`'s [list][`List` component], as well as the following additional props.
+
 | Prop | Type | Required? | Default | Description |
 | :--- | :--- | :---: | :--- | :--- |
 | itemToGroup | `func` |  | `item => item && item['group']` | A function that converts an item to its group.<br><br>**Signature**<br>`function(item: any) => (group: string \| null)` |

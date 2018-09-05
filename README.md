@@ -67,7 +67,7 @@ render(
 ```
 
 ## Props
-> Takes all the props of `react-virtualized`'s [list][List component], as well as the following additional props.
+Takes all the props of `react-virtualized`'s [list][List component], as well as the following additional props:
 
 | Prop | Type | Required? | Default | Description |
 | :--- | :--- | :---: | :--- | :--- |

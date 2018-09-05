@@ -11,10 +11,11 @@ class StickyList extends React.PureComponent {
 
   static propTypes = {
     /**
-     * A function that converts an item to its group.
+     * A function that converts an item to its group. (Should return null if
+     * item === null.)
      *
      * **Signature**
-     * `function(item: any) => (group: string | null)`
+     * `function(item: any) => (group: string | null | undefined)`
      */
     itemToGroup: PropTypes.func,
     /**

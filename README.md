@@ -37,7 +37,7 @@ const labelRenderer = ({ label, style, key }) => (
     </div>
 );
 
-rowRenderer: ({ index, style, key }) => (
+const rowRenderer = ({ index, style, key }) => (
     <div
         key={key}
         style={{
